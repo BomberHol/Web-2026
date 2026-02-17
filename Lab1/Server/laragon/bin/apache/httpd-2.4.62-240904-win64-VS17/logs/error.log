@@ -1,0 +1,612 @@
+[Sat Feb 14 17:21:47.447102 2026] [mpm_winnt:notice] [pid 1968:tid 472] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:21:47.447102 2026] [mpm_winnt:notice] [pid 1968:tid 472] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:21:47.447102 2026] [core:notice] [pid 1968:tid 472] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:21:47.448101 2026] [mpm_winnt:notice] [pid 1968:tid 472] AH00418: Parent: Created child process 8760
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 8760:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:21:59.403821 2026] [cgi:error] [pid 8760:tid 1232] [client 127.0.0.1:63762] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:23:00.331629 2026] [mpm_winnt:notice] [pid 1968:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Sat Feb 14 17:23:02.348748 2026] [mpm_winnt:notice] [pid 8760:tid 496] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 17:23:02.367431 2026] [mpm_winnt:notice] [pid 1968:tid 472] AH00430: Parent: Child process 8760 exited successfully.
+[Sat Feb 14 17:26:05.082465 2026] [mpm_winnt:notice] [pid 7504:tid 464] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:26:05.082465 2026] [mpm_winnt:notice] [pid 7504:tid 464] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:26:05.082465 2026] [core:notice] [pid 7504:tid 464] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:26:05.083465 2026] [mpm_winnt:notice] [pid 7504:tid 464] AH00418: Parent: Created child process 13688
+[Sat Feb 14 17:26:05.258423 2026] [mpm_winnt:notice] [pid 13688:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:26:07.738804 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62574] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:08.384994 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62574] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:08.642576 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62574] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:08.834924 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62574] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:09.018762 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62574] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:12.589756 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62574] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:37.379213 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62585] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:37.617386 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62585] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:37.843516 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62585] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:38.054339 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62585] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:38.248239 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62585] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:38.463338 2026] [cgi:error] [pid 13688:tid 1232] [client 127.0.0.1:62585] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:26:42.021293 2026] [mpm_winnt:crit] [pid 13688:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 17:26:42.687026 2026] [core:warn] [pid 3640:tid 464] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 17:26:42.699335 2026] [mpm_winnt:notice] [pid 3640:tid 464] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:26:42.699335 2026] [mpm_winnt:notice] [pid 3640:tid 464] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:26:42.699335 2026] [core:notice] [pid 3640:tid 464] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:26:42.699335 2026] [mpm_winnt:notice] [pid 3640:tid 464] AH00418: Parent: Created child process 13536
+[Sat Feb 14 17:26:42.888161 2026] [mpm_winnt:notice] [pid 13536:tid 456] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:27:06.655721 2026] [cgi:error] [pid 13536:tid 1244] [client 127.0.0.1:61775] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:27:07.003625 2026] [cgi:error] [pid 13536:tid 1244] [client 127.0.0.1:61775] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:27:07.366777 2026] [cgi:error] [pid 13536:tid 1244] [client 127.0.0.1:61775] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:27:15.606806 2026] [mpm_winnt:crit] [pid 13536:tid 456] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 17:30:34.138257 2026] [core:warn] [pid 13536:tid 480] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 17:30:34.154260 2026] [mpm_winnt:notice] [pid 13536:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:30:34.154260 2026] [mpm_winnt:notice] [pid 13536:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:30:34.154260 2026] [core:notice] [pid 13536:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:30:34.155260 2026] [mpm_winnt:notice] [pid 13536:tid 480] AH00418: Parent: Created child process 4148
+[Sat Feb 14 17:30:34.338118 2026] [mpm_winnt:notice] [pid 4148:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:39:46.797252 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:47.239215 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:47.596578 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:47.813722 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:48.006229 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:48.191190 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:48.417188 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:48.601511 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:48.787644 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:48.981256 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:49.215823 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:49.422827 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:49.621906 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:49.801354 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:49.970271 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:50.151917 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:50.341269 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:50.541640 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:50.756278 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:50.967756 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:51.170762 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:51.382132 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:39:51.581649 2026] [cgi:error] [pid 4148:tid 1268] [client 127.0.0.1:63015] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 17:55:13.911613 2026] [mpm_winnt:crit] [pid 4148:tid 496] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 17:55:17.928201 2026] [core:warn] [pid 4376:tid 436] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 17:55:17.953013 2026] [mpm_winnt:notice] [pid 4376:tid 436] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:55:17.953013 2026] [mpm_winnt:notice] [pid 4376:tid 436] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:55:17.953013 2026] [core:notice] [pid 4376:tid 436] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:55:17.955018 2026] [mpm_winnt:notice] [pid 4376:tid 436] AH00418: Parent: Created child process 1732
+[Sat Feb 14 17:55:18.117450 2026] [mpm_winnt:notice] [pid 1732:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:55:33.724271 2026] [authz_core:error] [pid 1732:tid 1244] [client 127.0.0.1:57203] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:56:18.703110 2026] [authz_core:error] [pid 1732:tid 1244] [client 127.0.0.1:55002] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:56:19.172772 2026] [authz_core:error] [pid 1732:tid 1244] [client 127.0.0.1:55002] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:56:19.402245 2026] [authz_core:error] [pid 1732:tid 1244] [client 127.0.0.1:55002] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:56:19.608779 2026] [authz_core:error] [pid 1732:tid 1244] [client 127.0.0.1:55002] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:56:33.025865 2026] [mpm_winnt:crit] [pid 1732:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 17:57:06.032114 2026] [core:warn] [pid 5260:tid 436] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 17:57:06.048114 2026] [mpm_winnt:notice] [pid 5260:tid 436] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:57:06.048114 2026] [mpm_winnt:notice] [pid 5260:tid 436] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:57:06.048114 2026] [core:notice] [pid 5260:tid 436] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:57:06.049113 2026] [mpm_winnt:notice] [pid 5260:tid 436] AH00418: Parent: Created child process 4752
+[Sat Feb 14 17:57:06.223971 2026] [mpm_winnt:notice] [pid 4752:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:57:09.130353 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64293] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:54.047691 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:54.798186 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:55.099832 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:55.292906 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:55.482439 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:55.658352 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:57:55.833376 2026] [authz_core:error] [pid 4752:tid 1236] [client 127.0.0.1:64301] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 17:58:12.286366 2026] [mpm_winnt:crit] [pid 4752:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 17:58:14.508481 2026] [core:warn] [pid 13488:tid 480] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 17:58:14.524417 2026] [mpm_winnt:notice] [pid 13488:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:58:14.524417 2026] [mpm_winnt:notice] [pid 13488:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:58:14.524417 2026] [core:notice] [pid 13488:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:58:14.524417 2026] [mpm_winnt:notice] [pid 13488:tid 480] AH00418: Parent: Created child process 10708
+[Sat Feb 14 17:58:14.704859 2026] [mpm_winnt:notice] [pid 10708:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:59:30.634351 2026] [mpm_winnt:crit] [pid 10708:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 17:59:44.214129 2026] [core:warn] [pid 12012:tid 192] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 17:59:44.228718 2026] [mpm_winnt:notice] [pid 12012:tid 192] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 17:59:44.228718 2026] [mpm_winnt:notice] [pid 12012:tid 192] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 17:59:44.228718 2026] [core:notice] [pid 12012:tid 192] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 17:59:44.228718 2026] [mpm_winnt:notice] [pid 12012:tid 192] AH00418: Parent: Created child process 1212
+[Sat Feb 14 17:59:44.401407 2026] [mpm_winnt:notice] [pid 1212:tid 460] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 17:59:44.401407 2026] [authz_core:error] [pid 1212:tid 1228] [client 127.0.0.1:54184] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:04:35.161846 2026] [authz_core:error] [pid 1212:tid 1224] [client 127.0.0.1:63970] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:04:35.495157 2026] [authz_core:error] [pid 1212:tid 1224] [client 127.0.0.1:63970] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:04:50.554832 2026] [mpm_winnt:crit] [pid 1212:tid 460] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:07:56.747689 2026] [core:warn] [pid 13160:tid 436] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:07:56.767325 2026] [mpm_winnt:notice] [pid 13160:tid 436] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:07:56.767325 2026] [mpm_winnt:notice] [pid 13160:tid 436] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:07:56.767325 2026] [core:notice] [pid 13160:tid 436] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:07:56.767325 2026] [mpm_winnt:notice] [pid 13160:tid 436] AH00418: Parent: Created child process 5480
+[Sat Feb 14 18:07:56.941706 2026] [mpm_winnt:notice] [pid 5480:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:07:56.958404 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:58436] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:15.350148 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55259] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:57.433755 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:58.365318 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:58.559213 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:58.755854 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:58.951497 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:59.146798 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:59.338575 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:08:59.544097 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:55261] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:05.833308 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:06.340615 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:06.546442 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:06.735493 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:06.938342 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:07.139333 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:07.342368 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:07.534800 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:07.925974 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:08.160382 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:08.395402 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:08.606745 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:08.822620 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:09.056888 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:09.262402 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:09.465883 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:09.678412 2026] [authz_core:error] [pid 5480:tid 1244] [client ::1:56962] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:09:23.726762 2026] [mpm_winnt:crit] [pid 5480:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:09:37.560194 2026] [core:warn] [pid 7452:tid 464] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:09:37.577764 2026] [mpm_winnt:notice] [pid 7452:tid 464] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:09:37.577764 2026] [mpm_winnt:notice] [pid 7452:tid 464] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:09:37.577764 2026] [core:notice] [pid 7452:tid 464] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:09:37.578763 2026] [mpm_winnt:notice] [pid 7452:tid 464] AH00418: Parent: Created child process 13008
+[Sat Feb 14 18:09:37.754714 2026] [mpm_winnt:notice] [pid 13008:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:11:43.063027 2026] [mpm_winnt:crit] [pid 13008:tid 440] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:11:46.039432 2026] [core:warn] [pid 3532:tid 468] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:11:46.055351 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:11:46.055351 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:11:46.055351 2026] [core:notice] [pid 3532:tid 468] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:11:46.055351 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00418: Parent: Created child process 5896
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 5896:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:12:17.197759 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00424: Parent: Received restart signal -- Restarting the server.
+Apache server restarting...
+[Sat Feb 14 18:12:17.224613 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:12:17.224613 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:12:17.224613 2026] [core:notice] [pid 3532:tid 468] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:12:17.225613 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00418: Parent: Created child process 13796
+[Sat Feb 14 18:12:17.404180 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 18:12:17.425848 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:12:17.425848 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:12:17.425848 2026] [core:notice] [pid 3532:tid 468] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:12:17.426848 2026] [mpm_winnt:notice] [pid 3532:tid 468] AH00418: Parent: Created child process 13420
+[Sat Feb 14 18:12:18.205328 2026] [mpm_winnt:notice] [pid 13796:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:12:18.206329 2026] [mpm_winnt:error] [pid 13796:tid 1252] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:12:18.206329 2026] [mpm_winnt:error] [pid 13796:tid 1248] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:12:18.206329 2026] [mpm_winnt:error] [pid 13796:tid 1260] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:12:18.206329 2026] [mpm_winnt:error] [pid 13796:tid 1256] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:12:19.220269 2026] [mpm_winnt:notice] [pid 5896:tid 452] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 18:12:19.220269 2026] [mpm_winnt:notice] [pid 13420:tid 484] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:12:20.232413 2026] [mpm_winnt:notice] [pid 13796:tid 440] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 18:15:55.874973 2026] [mpm_winnt:crit] [pid 13420:tid 484] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:15:56.731818 2026] [core:warn] [pid 2220:tid 440] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:15:56.747842 2026] [mpm_winnt:notice] [pid 2220:tid 440] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:15:56.747842 2026] [mpm_winnt:notice] [pid 2220:tid 440] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:15:56.747842 2026] [core:notice] [pid 2220:tid 440] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:15:56.747842 2026] [mpm_winnt:notice] [pid 2220:tid 440] AH00418: Parent: Created child process 12028
+[Sat Feb 14 18:15:56.906936 2026] [mpm_winnt:notice] [pid 12028:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:16:20.499034 2026] [mpm_winnt:crit] [pid 12028:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:16:22.522811 2026] [core:warn] [pid 12892:tid 496] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:16:22.538814 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:16:22.538814 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:16:22.538814 2026] [core:notice] [pid 12892:tid 496] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:16:22.539814 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00418: Parent: Created child process 4672
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 4672:tid 476] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:16:23.531546 2026] [authz_core:error] [pid 4672:tid 1232] [client 127.0.0.1:55072] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:16:24.320312 2026] [authz_core:error] [pid 4672:tid 1232] [client 127.0.0.1:55072] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:16:24.533235 2026] [authz_core:error] [pid 4672:tid 1232] [client 127.0.0.1:55072] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:16:24.716380 2026] [authz_core:error] [pid 4672:tid 1232] [client 127.0.0.1:55072] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:16:24.923113 2026] [authz_core:error] [pid 4672:tid 1232] [client 127.0.0.1:55072] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:16:25.111751 2026] [authz_core:error] [pid 4672:tid 1232] [client 127.0.0.1:55072] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 18:18:06.719240 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00424: Parent: Received restart signal -- Restarting the server.
+Apache server restarting...
+[Sat Feb 14 18:18:06.762064 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:18:06.762064 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:18:06.762064 2026] [core:notice] [pid 12892:tid 496] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:18:06.763065 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00418: Parent: Created child process 11984
+[Sat Feb 14 18:18:06.944241 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 18:18:06.967241 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:18:06.967241 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:18:06.967241 2026] [core:notice] [pid 12892:tid 496] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:18:06.968243 2026] [mpm_winnt:notice] [pid 12892:tid 496] AH00418: Parent: Created child process 7760
+[Sat Feb 14 18:18:07.724418 2026] [mpm_winnt:notice] [pid 11984:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:18:07.725418 2026] [mpm_winnt:error] [pid 11984:tid 1248] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:18:07.725418 2026] [mpm_winnt:error] [pid 11984:tid 748] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:18:07.725418 2026] [mpm_winnt:error] [pid 11984:tid 1252] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:18:07.725418 2026] [mpm_winnt:error] [pid 11984:tid 1256] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 18:18:08.728401 2026] [mpm_winnt:notice] [pid 7760:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:18:08.728401 2026] [mpm_winnt:notice] [pid 4672:tid 476] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 18:18:09.729572 2026] [mpm_winnt:notice] [pid 11984:tid 480] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 18:20:02.594887 2026] [mpm_winnt:crit] [pid 7760:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:20:03.902909 2026] [core:warn] [pid 1804:tid 480] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:20:03.920746 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:20:03.920746 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:20:03.920746 2026] [core:notice] [pid 1804:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:20:03.921747 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00418: Parent: Created child process 13028
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 13028:tid 448] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:20:55.492385 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 18:20:55.523036 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:20:55.523036 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:20:55.523036 2026] [core:notice] [pid 1804:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:20:55.523036 2026] [mpm_winnt:notice] [pid 1804:tid 480] AH00418: Parent: Created child process 12808
+[Sat Feb 14 18:20:56.498148 2026] [mpm_winnt:notice] [pid 12808:tid 488] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:20:57.512667 2026] [mpm_winnt:notice] [pid 13028:tid 448] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 18:23:21.674561 2026] [mpm_winnt:crit] [pid 12808:tid 488] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:23:33.605700 2026] [core:warn] [pid 4412:tid 460] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:23:33.621710 2026] [mpm_winnt:notice] [pid 4412:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:23:33.621710 2026] [mpm_winnt:notice] [pid 4412:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:23:33.621710 2026] [core:notice] [pid 4412:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:23:33.621710 2026] [mpm_winnt:notice] [pid 4412:tid 460] AH00418: Parent: Created child process 10696
+[Sat Feb 14 18:23:33.796392 2026] [mpm_winnt:notice] [pid 10696:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:24:20.912297 2026] [mpm_winnt:crit] [pid 10696:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:24:33.177022 2026] [core:warn] [pid 10352:tid 488] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:24:33.190952 2026] [mpm_winnt:notice] [pid 10352:tid 488] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:24:33.190952 2026] [mpm_winnt:notice] [pid 10352:tid 488] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:24:33.190952 2026] [core:notice] [pid 10352:tid 488] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:24:33.190952 2026] [mpm_winnt:notice] [pid 10352:tid 488] AH00418: Parent: Created child process 8780
+[Sat Feb 14 18:24:33.374945 2026] [mpm_winnt:notice] [pid 8780:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 18:25:00.141643 2026] [mpm_winnt:crit] [pid 8780:tid 496] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 18:39:30.819206 2026] [core:warn] [pid 11580:tid 480] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 18:39:30.834927 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 18:39:30.834927 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 18:39:30.834927 2026] [core:notice] [pid 11580:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 18:39:30.834927 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00418: Parent: Created child process 1576
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 1576:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:22:27.875494 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 19:22:27.907666 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 19:22:27.907666 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 19:22:27.907666 2026] [core:notice] [pid 11580:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 19:22:27.907666 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00418: Parent: Created child process 6480
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 6480:tid 444] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:22:29.896586 2026] [mpm_winnt:notice] [pid 1576:tid 464] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 19:22:46.579678 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 19:22:46.595789 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 19:22:46.595789 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 19:22:46.595789 2026] [core:notice] [pid 11580:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 19:22:46.595789 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00418: Parent: Created child process 13724
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 13724:tid 460] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:22:48.596423 2026] [mpm_winnt:notice] [pid 6480:tid 444] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 19:23:07.795842 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 19:23:07.830130 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 19:23:07.830130 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 19:23:07.830130 2026] [core:notice] [pid 11580:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 19:23:07.830130 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00418: Parent: Created child process 3096
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 3096:tid 444] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:23:09.487057 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 19:23:09.522226 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 19:23:09.522226 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 19:23:09.522226 2026] [core:notice] [pid 11580:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 19:23:09.522226 2026] [mpm_winnt:notice] [pid 11580:tid 480] AH00418: Parent: Created child process 6252
+[Sat Feb 14 19:23:09.806734 2026] [mpm_winnt:notice] [pid 13724:tid 460] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 19:23:10.489521 2026] [mpm_winnt:notice] [pid 6252:tid 456] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:23:11.503108 2026] [mpm_winnt:notice] [pid 3096:tid 444] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 19:23:23.179611 2026] [mpm_winnt:crit] [pid 6252:tid 456] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 19:23:24.513471 2026] [core:warn] [pid 252:tid 500] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 19:23:24.531509 2026] [mpm_winnt:notice] [pid 252:tid 500] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 19:23:24.531509 2026] [mpm_winnt:notice] [pid 252:tid 500] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 19:23:24.531509 2026] [core:notice] [pid 252:tid 500] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 19:23:24.531509 2026] [mpm_winnt:notice] [pid 252:tid 500] AH00418: Parent: Created child process 8388
+[Sat Feb 14 19:23:24.718790 2026] [mpm_winnt:notice] [pid 8388:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:23:46.524514 2026] [mpm_winnt:crit] [pid 8388:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 19:23:57.216045 2026] [core:warn] [pid 7116:tid 460] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 19:23:57.247530 2026] [mpm_winnt:notice] [pid 7116:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 19:23:57.247530 2026] [mpm_winnt:notice] [pid 7116:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 19:23:57.247530 2026] [core:notice] [pid 7116:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 19:23:57.247530 2026] [mpm_winnt:notice] [pid 7116:tid 460] AH00418: Parent: Created child process 12012
+[Sat Feb 14 19:23:57.421136 2026] [mpm_winnt:notice] [pid 12012:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 19:24:50.325056 2026] [mpm_winnt:crit] [pid 12012:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 20:35:01.420687 2026] [core:warn] [pid 11868:tid 492] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 20:35:01.484006 2026] [mpm_winnt:notice] [pid 11868:tid 492] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 20:35:01.484006 2026] [mpm_winnt:notice] [pid 11868:tid 492] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 20:35:01.484006 2026] [core:notice] [pid 11868:tid 492] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 20:35:01.484006 2026] [mpm_winnt:notice] [pid 11868:tid 492] AH00418: Parent: Created child process 12168
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 12168:tid 504] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 20:37:23.005300 2026] [mpm_winnt:notice] [pid 11868:tid 492] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Sat Feb 14 20:37:25.024577 2026] [mpm_winnt:notice] [pid 12168:tid 504] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 20:37:25.056061 2026] [mpm_winnt:notice] [pid 11868:tid 492] AH00430: Parent: Child process 12168 exited successfully.
+[Sat Feb 14 20:37:50.134975 2026] [mpm_winnt:notice] [pid 11828:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 20:37:50.134975 2026] [mpm_winnt:notice] [pid 11828:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 20:37:50.134975 2026] [core:notice] [pid 11828:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 20:37:50.134975 2026] [mpm_winnt:notice] [pid 11828:tid 460] AH00418: Parent: Created child process 10072
+[Sat Feb 14 20:37:50.310249 2026] [mpm_winnt:notice] [pid 10072:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 20:40:21.149773 2026] [mpm_winnt:crit] [pid 10072:tid 440] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 21:11:08.340952 2026] [core:warn] [pid 6992:tid 460] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 21:11:08.356948 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:11:08.356948 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:11:08.356948 2026] [core:notice] [pid 6992:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:11:08.372606 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00418: Parent: Created child process 13004
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 13004:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:11:45.698337 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00424: Parent: Received restart signal -- Restarting the server.
+Apache server restarting...
+[Sat Feb 14 21:11:45.730599 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:11:45.730599 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:11:45.730599 2026] [core:notice] [pid 6992:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:11:45.730599 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00418: Parent: Created child process 9424
+[Sat Feb 14 21:11:46.028087 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 21:11:46.057606 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:11:46.057606 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:11:46.057606 2026] [core:notice] [pid 6992:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:11:46.057606 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00418: Parent: Created child process 11612
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 9424:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:11:46.716679 2026] [mpm_winnt:error] [pid 9424:tid 736] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 21:11:46.716679 2026] [mpm_winnt:error] [pid 9424:tid 1232] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 21:11:47.722744 2026] [mpm_winnt:notice] [pid 13004:tid 464] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:11:47.722744 2026] [mpm_winnt:notice] [pid 11612:tid 456] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:11:48.731399 2026] [mpm_winnt:notice] [pid 9424:tid 480] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:11:53.574264 2026] [authz_core:error] [pid 11612:tid 1244] [client 127.0.0.1:54630] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 21:12:27.747260 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 21:12:27.779128 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:12:27.779128 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:12:27.779128 2026] [core:notice] [pid 6992:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:12:27.779128 2026] [mpm_winnt:notice] [pid 6992:tid 460] AH00418: Parent: Created child process 5428
+[Sat Feb 14 21:12:28.758555 2026] [mpm_winnt:notice] [pid 5428:tid 476] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:12:29.767701 2026] [mpm_winnt:notice] [pid 11612:tid 456] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:12:33.234830 2026] [authz_core:error] [pid 5428:tid 1220] [client 127.0.0.1:54646] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 21:12:33.888446 2026] [authz_core:error] [pid 5428:tid 1220] [client 127.0.0.1:54646] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 21:12:38.477036 2026] [authz_core:error] [pid 5428:tid 1220] [client 127.0.0.1:54646] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 21:12:39.116111 2026] [authz_core:error] [pid 5428:tid 1220] [client 127.0.0.1:54646] AH01630: client denied by server configuration: C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/Artem
+[Sat Feb 14 21:12:53.322979 2026] [mpm_winnt:crit] [pid 5428:tid 476] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 21:12:54.952609 2026] [core:warn] [pid 1296:tid 444] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 21:12:54.979362 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:12:54.979362 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:12:54.979362 2026] [core:notice] [pid 1296:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:12:54.979362 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00418: Parent: Created child process 11184
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 11184:tid 468] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:15:43.446996 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00424: Parent: Received restart signal -- Restarting the server.
+Apache server restarting...
+[Sat Feb 14 21:15:43.475888 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:15:43.475888 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:15:43.475888 2026] [core:notice] [pid 1296:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:15:43.475888 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00418: Parent: Created child process 12840
+[Sat Feb 14 21:15:43.650042 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 21:15:43.666061 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:15:43.666061 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:15:43.666061 2026] [core:notice] [pid 1296:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:15:43.681775 2026] [mpm_winnt:notice] [pid 1296:tid 444] AH00418: Parent: Created child process 6136
+[Sat Feb 14 21:15:44.465065 2026] [mpm_winnt:notice] [pid 12840:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:15:44.465065 2026] [mpm_winnt:error] [pid 12840:tid 1224] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 21:15:44.465065 2026] [mpm_winnt:error] [pid 12840:tid 1216] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 21:15:45.471791 2026] [mpm_winnt:notice] [pid 6136:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:15:45.471791 2026] [mpm_winnt:notice] [pid 11184:tid 468] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:15:46.478491 2026] [mpm_winnt:notice] [pid 12840:tid 472] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:17:25.379043 2026] [mpm_winnt:crit] [pid 6136:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 21:18:43.159584 2026] [core:warn] [pid 11040:tid 464] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 21:18:43.175224 2026] [mpm_winnt:notice] [pid 11040:tid 464] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:18:43.175224 2026] [mpm_winnt:notice] [pid 11040:tid 464] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:18:43.175224 2026] [core:notice] [pid 11040:tid 464] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:18:43.175224 2026] [mpm_winnt:notice] [pid 11040:tid 464] AH00418: Parent: Created child process 5644
+[Sat Feb 14 21:18:43.349879 2026] [mpm_winnt:notice] [pid 5644:tid 484] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:18:50.973466 2026] [cgi:error] [pid 5644:tid 1232] [client 127.0.0.1:56591] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:25.070587 2026] [mpm_winnt:crit] [pid 5644:tid 484] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 21:21:25.833779 2026] [core:warn] [pid 11016:tid 476] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 21:21:25.849665 2026] [mpm_winnt:notice] [pid 11016:tid 476] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:21:25.849665 2026] [mpm_winnt:notice] [pid 11016:tid 476] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:21:25.849665 2026] [core:notice] [pid 11016:tid 476] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:21:25.849665 2026] [mpm_winnt:notice] [pid 11016:tid 476] AH00418: Parent: Created child process 6544
+[Sat Feb 14 21:21:26.034520 2026] [mpm_winnt:notice] [pid 6544:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:21:29.328785 2026] [cgi:error] [pid 6544:tid 1228] [client 127.0.0.1:56644] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:30.045606 2026] [cgi:error] [pid 6544:tid 1228] [client 127.0.0.1:56644] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:30.364992 2026] [cgi:error] [pid 6544:tid 1228] [client 127.0.0.1:56644] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:30.587882 2026] [cgi:error] [pid 6544:tid 1228] [client 127.0.0.1:56644] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:30.778369 2026] [cgi:error] [pid 6544:tid 1228] [client 127.0.0.1:56644] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:30.985628 2026] [cgi:error] [pid 6544:tid 1228] [client 127.0.0.1:56644] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:33.531982 2026] [mpm_winnt:crit] [pid 6544:tid 472] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 21:21:36.106802 2026] [mpm_winnt:notice] [pid 6544:tid 472] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:21:40.747368 2026] [core:warn] [pid 12144:tid 488] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 21:21:40.763451 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:21:40.763451 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:21:40.763451 2026] [core:notice] [pid 12144:tid 488] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:21:40.763451 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00418: Parent: Created child process 12804
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 12804:tid 456] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:21:41.796214 2026] [cgi:error] [pid 12804:tid 1244] [client 127.0.0.1:56653] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:42.257177 2026] [cgi:error] [pid 12804:tid 1244] [client 127.0.0.1:56653] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:42.497198 2026] [cgi:error] [pid 12804:tid 1244] [client 127.0.0.1:56653] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:42.688578 2026] [cgi:error] [pid 12804:tid 1244] [client 127.0.0.1:56653] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:21:42.927725 2026] [cgi:error] [pid 12804:tid 1244] [client 127.0.0.1:56653] AH02811: stderr from C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/cgi-bin/hello.cgi: script not found or unable to stat
+[Sat Feb 14 21:22:22.317367 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00424: Parent: Received restart signal -- Restarting the server.
+Apache server restarting...
+[Sat Feb 14 21:22:22.351194 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:22:22.351194 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:22:22.351194 2026] [core:notice] [pid 12144:tid 488] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:22:22.352194 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00418: Parent: Created child process 9632
+[Sat Feb 14 21:22:22.535243 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 21:22:22.557280 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 21:22:22.557280 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 21:22:22.557280 2026] [core:notice] [pid 12144:tid 488] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 21:22:22.558280 2026] [mpm_winnt:notice] [pid 12144:tid 488] AH00418: Parent: Created child process 3136
+[Sat Feb 14 21:22:23.335358 2026] [mpm_winnt:notice] [pid 9632:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:22:23.335358 2026] [mpm_winnt:error] [pid 9632:tid 940] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 21:22:23.335358 2026] [mpm_winnt:error] [pid 9632:tid 200] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 21:22:24.339961 2026] [mpm_winnt:notice] [pid 12804:tid 456] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 21:22:24.339961 2026] [mpm_winnt:notice] [pid 3136:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 21:22:25.342848 2026] [mpm_winnt:notice] [pid 9632:tid 464] AH00363: Child: Terminating 29 threads that failed to exit.
+[Sat Feb 14 21:22:25.342848 2026] [mpm_winnt:notice] [pid 9632:tid 464] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 22:04:15.994509 2026] [mpm_winnt:crit] [pid 3136:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 22:04:19.734977 2026] [core:warn] [pid 5136:tid 492] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 22:04:19.751000 2026] [mpm_winnt:notice] [pid 5136:tid 492] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:04:19.751000 2026] [mpm_winnt:notice] [pid 5136:tid 492] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:04:19.751000 2026] [core:notice] [pid 5136:tid 492] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:04:19.751000 2026] [mpm_winnt:notice] [pid 5136:tid 492] AH00418: Parent: Created child process 11496
+[Sat Feb 14 22:04:19.941495 2026] [mpm_winnt:notice] [pid 11496:tid 492] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:04:23.809370 2026] [cgi:error] [pid 11496:tid 1240] [client 127.0.0.1:57241] AH02811: stderr from C:/Artem/Web/Server/laragon/www/cgi-bin/1_4.cgi: script not found or unable to stat
+[Sat Feb 14 22:05:19.119400 2026] [mpm_winnt:crit] [pid 11496:tid 492] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 22:05:21.034952 2026] [core:warn] [pid 12808:tid 452] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 22:05:21.051075 2026] [mpm_winnt:notice] [pid 12808:tid 452] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:05:21.051075 2026] [mpm_winnt:notice] [pid 12808:tid 452] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:05:21.051075 2026] [core:notice] [pid 12808:tid 452] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:05:21.051075 2026] [mpm_winnt:notice] [pid 12808:tid 452] AH00418: Parent: Created child process 1740
+[Sat Feb 14 22:05:21.240405 2026] [mpm_winnt:notice] [pid 1740:tid 476] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:06:08.034980 2026] [mpm_winnt:crit] [pid 1740:tid 476] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 22:06:50.903631 2026] [core:warn] [pid 4480:tid 460] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 22:06:50.924803 2026] [mpm_winnt:notice] [pid 4480:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:06:50.924803 2026] [mpm_winnt:notice] [pid 4480:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:06:50.924803 2026] [core:notice] [pid 4480:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:06:50.924803 2026] [mpm_winnt:notice] [pid 4480:tid 460] AH00418: Parent: Created child process 12452
+[Sat Feb 14 22:06:51.106488 2026] [mpm_winnt:notice] [pid 12452:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:06:54.319577 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57298] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:06:57.119045 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57299] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:06:57.642931 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57300] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:06:58.138055 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57301] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:04.937394 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57305] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:05.235479 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57306] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:05.443707 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57307] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:05.619690 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57308] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:05.809889 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57309] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:06.001639 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57310] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:06.193296 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57311] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:07:06.382760 2026] [cgi:error] [pid 12452:tid 1224] [client 127.0.0.1:57312] malformed header from script '1_4.cgi': Bad header: hel
+[Sat Feb 14 22:09:37.257046 2026] [mpm_winnt:crit] [pid 12452:tid 464] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 22:09:41.302277 2026] [core:warn] [pid 2372:tid 444] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 22:09:41.318188 2026] [mpm_winnt:notice] [pid 2372:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:09:41.318188 2026] [mpm_winnt:notice] [pid 2372:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:09:41.318188 2026] [core:notice] [pid 2372:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:09:41.318188 2026] [mpm_winnt:notice] [pid 2372:tid 444] AH00418: Parent: Created child process 13260
+[Sat Feb 14 22:09:41.492288 2026] [mpm_winnt:notice] [pid 13260:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:10:42.689409 2026] [mpm_winnt:crit] [pid 13260:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 22:11:11.261637 2026] [core:warn] [pid 10436:tid 444] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 22:11:11.293614 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:11:11.293614 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:11:11.293614 2026] [core:notice] [pid 10436:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:11:11.293614 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00418: Parent: Created child process 11992
+Apache server restarting...
+2026] [mpm_winnt:notice] [pid 11992:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:15:47.502634 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00424: Parent: Received restart signal -- Restarting the server.
+Apache server restarting...
+[Sat Feb 14 22:15:47.534568 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:15:47.534568 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:15:47.534568 2026] [core:notice] [pid 10436:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:15:47.534568 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00418: Parent: Created child process 12176
+[Sat Feb 14 22:15:47.708961 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Feb 14 22:15:47.724874 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:15:47.724874 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:15:47.724874 2026] [core:notice] [pid 10436:tid 444] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:15:47.724874 2026] [mpm_winnt:notice] [pid 10436:tid 444] AH00418: Parent: Created child process 11076
+[Sat Feb 14 22:15:48.524189 2026] [mpm_winnt:notice] [pid 12176:tid 488] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:15:48.524742 2026] [mpm_winnt:error] [pid 12176:tid 1008] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 22:15:48.524742 2026] [mpm_winnt:error] [pid 12176:tid 1004] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Sat Feb 14 22:15:49.528649 2026] [mpm_winnt:notice] [pid 11076:tid 460] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:15:49.528649 2026] [mpm_winnt:notice] [pid 11992:tid 480] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 22:15:50.532928 2026] [mpm_winnt:notice] [pid 12176:tid 488] AH00363: Child: Terminating 38 threads that failed to exit.
+[Sat Feb 14 22:15:50.532928 2026] [mpm_winnt:notice] [pid 12176:tid 488] AH00364: Child: All worker threads have exited.
+[Sat Feb 14 22:18:40.399862 2026] [mpm_winnt:crit] [pid 11076:tid 460] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 14 22:18:41.955413 2026] [core:warn] [pid 1980:tid 460] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 14 22:18:41.971181 2026] [mpm_winnt:notice] [pid 1980:tid 460] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sat Feb 14 22:18:41.971181 2026] [mpm_winnt:notice] [pid 1980:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Feb 14 22:18:41.971181 2026] [core:notice] [pid 1980:tid 460] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sat Feb 14 22:18:41.971181 2026] [mpm_winnt:notice] [pid 1980:tid 460] AH00418: Parent: Created child process 3260
+[Sat Feb 14 22:18:42.150418 2026] [mpm_winnt:notice] [pid 3260:tid 484] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 14 22:18:45.679097 2026] [cgi:error] [pid 3260:tid 1220] [client 127.0.0.1:57508] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:10:00.117633 2026] [core:warn] [pid 9624:tid 480] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 15 11:10:00.233613 2026] [mpm_winnt:notice] [pid 9624:tid 480] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sun Feb 15 11:10:00.233613 2026] [mpm_winnt:notice] [pid 9624:tid 480] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Feb 15 11:10:00.233613 2026] [core:notice] [pid 9624:tid 480] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sun Feb 15 11:10:00.233613 2026] [mpm_winnt:notice] [pid 9624:tid 480] AH00418: Parent: Created child process 10340
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 10340:tid 476] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 15 11:10:00.421658 2026] [cgi:error] [pid 10340:tid 1216] [client ::1:49974] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:10:01.902350 2026] [cgi:error] [pid 10340:tid 1216] [client ::1:49979] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:10:02.506469 2026] [cgi:error] [pid 10340:tid 1216] [client ::1:49980] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:10:02.832298 2026] [cgi:error] [pid 10340:tid 1216] [client ::1:49981] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:52.015812 2026] [mpm_winnt:notice] [pid 9624:tid 480] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Sun Feb 15 11:11:54.038668 2026] [mpm_winnt:notice] [pid 10340:tid 476] AH00364: Child: All worker threads have exited.
+[Sun Feb 15 11:11:54.072242 2026] [mpm_winnt:notice] [pid 9624:tid 480] AH00430: Parent: Child process 10340 exited successfully.
+[Sun Feb 15 11:11:55.012196 2026] [mpm_winnt:notice] [pid 5500:tid 464] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sun Feb 15 11:11:55.012196 2026] [mpm_winnt:notice] [pid 5500:tid 464] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Feb 15 11:11:55.012196 2026] [core:notice] [pid 5500:tid 464] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sun Feb 15 11:11:55.012196 2026] [mpm_winnt:notice] [pid 5500:tid 464] AH00418: Parent: Created child process 5404
+[Sun Feb 15 11:11:55.192449 2026] [mpm_winnt:notice] [pid 5404:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 15 11:11:56.362443 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50033] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:57.032191 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50034] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:57.502561 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50035] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:57.712396 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50036] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:57.932386 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50037] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:58.122446 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50038] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:58.323465 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50039] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:58.522474 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50040] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:58.732218 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50041] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:58.932132 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50042] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:59.122368 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50044] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:59.342369 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50045] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:59.592643 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50046] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:11:59.829158 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50047] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:12:00.247344 2026] [cgi:error] [pid 5404:tid 1220] [client ::1:50048] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:13:21.076467 2026] [mpm_winnt:crit] [pid 5404:tid 496] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Feb 15 11:13:25.384699 2026] [core:warn] [pid 2580:tid 472] AH00098: pid file C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 15 11:13:25.396945 2026] [mpm_winnt:notice] [pid 2580:tid 472] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sun Feb 15 11:13:25.396945 2026] [mpm_winnt:notice] [pid 2580:tid 472] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Feb 15 11:13:25.396945 2026] [core:notice] [pid 2580:tid 472] AH00094: Command line: 'C:\\Artem\\Web\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sun Feb 15 11:13:25.396945 2026] [mpm_winnt:notice] [pid 2580:tid 472] AH00418: Parent: Created child process 4724
+[Sun Feb 15 11:13:25.578527 2026] [mpm_winnt:notice] [pid 4724:tid 444] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 15 11:14:06.192847 2026] [mpm_winnt:crit] [pid 4724:tid 444] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Feb 15 11:15:36.688748 2026] [core:warn] [pid 10736:tid 468] AH00098: pid file C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 15 11:15:36.812891 2026] [mpm_winnt:notice] [pid 10736:tid 468] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sun Feb 15 11:15:36.812891 2026] [mpm_winnt:notice] [pid 10736:tid 468] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Feb 15 11:15:36.812891 2026] [core:notice] [pid 10736:tid 468] AH00094: Command line: 'C:\\Artem\\Web\\Lab1\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sun Feb 15 11:15:36.812891 2026] [mpm_winnt:notice] [pid 10736:tid 468] AH00418: Parent: Created child process 6744
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 6744:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 15 11:21:13.399696 2026] [mpm_winnt:notice] [pid 10736:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Sun Feb 15 11:21:15.415782 2026] [mpm_winnt:notice] [pid 6744:tid 440] AH00364: Child: All worker threads have exited.
+[Sun Feb 15 11:21:15.431609 2026] [mpm_winnt:notice] [pid 10736:tid 468] AH00430: Parent: Child process 6744 exited successfully.
+[Sun Feb 15 11:21:17.555073 2026] [mpm_winnt:notice] [pid 6808:tid 464] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sun Feb 15 11:21:17.555073 2026] [mpm_winnt:notice] [pid 6808:tid 464] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Feb 15 11:21:17.555073 2026] [core:notice] [pid 6808:tid 464] AH00094: Command line: 'C:\\Artem\\Web\\Lab1\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sun Feb 15 11:21:17.565136 2026] [mpm_winnt:notice] [pid 6808:tid 464] AH00418: Parent: Created child process 11692
+[Sun Feb 15 11:21:17.734717 2026] [mpm_winnt:notice] [pid 11692:tid 456] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 15 11:24:19.418396 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50059] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:21.688635 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50060] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:22.098506 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50061] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:22.394612 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50062] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:22.632121 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50063] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:22.870218 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50064] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:23.088701 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50065] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:23.738713 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50067] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:23.999896 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50068] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:24.380260 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50069] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:24:24.668735 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50070] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:26:00.336700 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50079] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:26:32.787467 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50093] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:26:33.267308 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50094] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:26:33.515008 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50095] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:29:30.631089 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50127] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:35:50.278889 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50222] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:28.579498 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50227] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:29.239433 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50228] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:29.439524 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50229] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:29.631060 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50230] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:29.829418 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50231] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:30.019395 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50232] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:30.364466 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50233] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:30.631168 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50234] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:36:30.899614 2026] [cgi:error] [pid 11692:tid 1220] [client 127.0.0.1:50235] malformed header from script '1_4.cgi': Bad header: HTTP/2 200 Ok
+[Sun Feb 15 11:53:02.607813 2026] [mpm_winnt:crit] [pid 11692:tid 456] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Feb 15 11:53:03.233234 2026] [core:warn] [pid 12436:tid 452] AH00098: pid file C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 15 11:53:03.251276 2026] [mpm_winnt:notice] [pid 12436:tid 452] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Sun Feb 15 11:53:03.251276 2026] [mpm_winnt:notice] [pid 12436:tid 452] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Feb 15 11:53:03.251276 2026] [core:notice] [pid 12436:tid 452] AH00094: Command line: 'C:\\Artem\\Web\\Lab1\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Sun Feb 15 11:53:03.251276 2026] [mpm_winnt:notice] [pid 12436:tid 452] AH00418: Parent: Created child process 8112
+[Sun Feb 15 11:53:03.438307 2026] [mpm_winnt:notice] [pid 8112:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 15 17:01:36.879896 2026] [cgi:error] [pid 8112:tid 1224] [client 127.0.0.1:56851] AH02811: stderr from C:/Artem/Web/Lab1/Server/laragon/www/cgi-bin/1_7: script not found or unable to stat
+[Tue Feb 17 19:40:54.375891 2026] [core:warn] [pid 12080:tid 416] AH00098: pid file C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 17 19:40:54.432287 2026] [mpm_winnt:notice] [pid 12080:tid 416] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/8.3.30 configured -- resuming normal operations
+[Tue Feb 17 19:40:54.432287 2026] [mpm_winnt:notice] [pid 12080:tid 416] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Feb 17 19:40:54.432287 2026] [core:notice] [pid 12080:tid 416] AH00094: Command line: 'C:\\Artem\\Web\\Lab1\\Server\\laragon\\bin\\apache\\httpd-2.4.62-240904-win64-VS17\\bin\\httpd -d C:/Artem/Web/Lab1/Server/laragon/bin/apache/httpd-2.4.62-240904-win64-VS17'
+[Tue Feb 17 19:40:54.432287 2026] [mpm_winnt:notice] [pid 12080:tid 416] AH00418: Parent: Created child process 10992

@@ -1,0 +1,5 @@
+127.0.0.1 - - [14/Feb/2026:17:30:34 +0300] "GET /cgi-bin/hello.cgi HTTP/1.1" 200 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+127.0.0.1 - - [14/Feb/2026:17:30:39 +0300] "GET /cgi-bin/hello.cgi HTTP/1.1" 200 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+127.0.0.1 - - [14/Feb/2026:17:30:53 +0300] "GET /cgi-bin/hello.cgi HTTP/1.1" 200 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+127.0.0.1 - - [15/Feb/2026:11:53:03 +0300] "GET /cgi-bin/1_4.cgi?Cherepanov HTTP/1.1" 200 54679 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+127.0.0.1 - - [15/Feb/2026:11:53:19 +0300] "GET /cgi-bin/1_4.cgi?Cherepanov HTTP/1.1" 200 54679 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"

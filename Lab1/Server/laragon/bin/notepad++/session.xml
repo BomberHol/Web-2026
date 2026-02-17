@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="523" xOffset="0" scrollWidth="759" startPos="20856" endPos="20856" selMode="0" offset="0" wrapCount="1" lang="Properties" encoding="-1" userReadOnly="no" filename="C:\Artem\Web\Server\laragon\bin\apache\httpd-2.4.62-240904-win64-VS17\conf\httpd.conf" backupFilePath="" originalFileLastModifTimestamp="2015757194" originalFileLastModifTimestampHigh="31235666" tabColourId="-1" RTL="no" tabPinned="no" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="28" xOffset="887" scrollWidth="2031" startPos="5136" endPos="5136" selMode="0" offset="0" wrapCount="1" lang="None (Normal Text)" encoding="10007" userReadOnly="no" filename="C:\Artem\Web\Server\laragon\bin\apache\httpd-2.4.62-240904-win64-VS17\logs\error.log" backupFilePath="" originalFileLastModifTimestamp="-1120487491" originalFileLastModifTimestampHigh="31235558" tabColourId="-1" RTL="no" tabPinned="no" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
