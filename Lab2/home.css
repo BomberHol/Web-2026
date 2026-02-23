@@ -1,0 +1,30 @@
+.home__menu
+{
+    background-color: #ffffff;
+    width: 72px;
+    height: 1080px;
+    border: 1px solid black; /*DELETE
+    /* border-right: 1px solid #2222220D;
+    border-left: 1px solid #2222220D; */
+}
+
+.home__house-item
+{
+    width: 40px;
+    height: 40px;
+    margin: 40px 16px 0px 16px;
+}
+
+.home__human-item
+{
+    width: 40px;
+    height: 40px;
+    margin: 16px 16px 0px 16px;
+}
+
+.home__plus-item
+{
+    width: 40px;
+    height: 40px;
+    margin: 16px 16px 0px 16px;
+}

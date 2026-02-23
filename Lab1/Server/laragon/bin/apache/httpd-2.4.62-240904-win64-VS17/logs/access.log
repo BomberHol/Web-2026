@@ -563,3 +563,6 @@
 127.0.0.1 - - [15/Feb/2026:17:02:04 +0300] "GET /cgi-bin/1_7.cgi?first_name=Cherepanov&age=10&last_name=Dada&fdsd=sdad HTTP/1.1" 200 53
 127.0.0.1 - - [15/Feb/2026:17:02:36 +0300] "GET /cgi-bin/1_7.cgi?first_name=Cherepanov&age=10&last_name=Dada&fdsd=sdad HTTP/1.1" 200 50
 127.0.0.1 - - [15/Feb/2026:17:02:51 +0300] "GET /cgi-bin/1_7.cgi?first_name=Cherepanov&age=10&last_name=Pidr&fdsd=sdad HTTP/1.1" 200 50
+127.0.0.1 - - [17/Feb/2026:19:45:33 +0300] "GET / HTTP/1.1" 200 102
+127.0.0.1 - - [17/Feb/2026:20:21:23 +0300] "GET /cgi-bin/ HTTP/1.1" 403 199
+127.0.0.1 - - [17/Feb/2026:20:21:33 +0300] "GET /cgi-bin/1_4.cgi?Cherepanov HTTP/1.1" 200 142

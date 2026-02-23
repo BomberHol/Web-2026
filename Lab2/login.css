@@ -1,0 +1,83 @@
+.login
+{
+    font-family: "Golos Text", sans-serif;
+}
+
+.login__preview
+{
+   display: inline-block;
+   vertical-align: top;
+}
+
+.login__heading
+{
+    color: #222222;
+    font-size: 140px;
+    margin: 182px 0px 0px 179px;
+    width: 552px;
+    height: 607px;
+    background-image: url(./images/Human.png);
+    background-position: 90px 106px;
+    background-repeat: no-repeat;
+
+}
+
+.login__form
+{
+    display: inline-block;
+    margin: 415px 0px 414px 107px;
+}
+
+.login__headline-input
+{
+    font-size: 15px;
+    color: #222222;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+.login__subtitle-input
+{
+    font-size: 13px;
+    color: #808080;
+    display: block;
+    margin-top: 5px;
+}
+
+.login__input
+{
+    background-color: #F2F3F5;
+    border: 10px;
+    width: 343px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.login__password-form
+{
+    display: flex;
+    align-items: center;
+}
+
+.login__icon-password
+{
+    margin: 0px 0px 0px -36px;
+    width: 24px;
+    height: 24px;
+}
+
+.login__button
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 343px;
+    height: 48px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #222222;
+    margin-top: 32px;
+}
