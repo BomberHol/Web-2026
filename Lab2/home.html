@@ -1,15 +1,46 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>home</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
     </head>
-    <body calss="home">
+
+    <body class="home">
+        <div class="home__header"></div>
         <div class="home__menu">
             <img src="./images/house-item.svg" alt="house-item" class="home__house-item">
             <img src="./images/human-item.svg" alt="human-item" class="home__human-item">
             <img src="./images/plus-item.svg" alt="plus-item" class="home__plus-item">
+        </div>
+
+        <div class="lenta">
+            <div class="lenta__post-first">
+                <span class="lenta_head-post">
+                    <img src="./images/first-post/human.png" alt="human" class="lenta__image-user">
+                    <span class="lenta__name">Ваня Денисов</span>
+                    <img src="./images/first-post/pen.svg" alt="pen" class="lenta__image-pen">
+                </span>
+                <div class="lenta__slider-photo">
+                    <img src="./images/first-post/photo.png" alt="photo" class="lenta__photo">
+                    <img src="./images/first-post/counter.svg" alt="1/3" class="lenta__counter-photo">
+                </div>
+                
+                <div class="lenta__information">
+                    <div class="lenta__likes">  
+                        <img src="./images/first-post/heart.png" alt="heart" class="lenta__heart">
+                        <span class="lenta__counter-hearts">203</span>
+                    </div>
+                    <span class="lenta__description">Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, 
+                        в уснувшей долине, на самом дне, в гор...»
+                    </span>
+                    <span class="lenta__button-open">ещё</span>
+                    <span class="lenta__date">2 часа назад</span>
+                </div>
+            </div>
         </div>
     </body>
 </html>

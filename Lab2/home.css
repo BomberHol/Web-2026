@@ -1,9 +1,23 @@
+.home
+{
+    font-family: "Golos Text", sans-serif;
+}
+
+.home__header
+{
+    background-color: black; /*#ffffff */
+    width: 1369px;
+    height: 73px;
+    margin-left: 72px;
+}
+
 .home__menu
 {
+    margin-top: -73px;
     background-color: #ffffff;
-    width: 72px;
+    width: 71px;
     height: 1080px;
-    border: 1px solid black; /*DELETE
+    border: 1px solid black; /*DELETE */
     /* border-right: 1px solid #2222220D;
     border-left: 1px solid #2222220D; */
 }
@@ -27,4 +41,132 @@
     width: 40px;
     height: 40px;
     margin: 16px 16px 0px 16px;
+}
+
+.lenta
+{
+    width: 474px;
+    height: 1338px;
+    margin: -1009px 0px 0px 482px;
+}
+
+.lenta__post-first
+{
+    width: 474px;
+    height: 700px;
+}
+
+.lenta_head-post
+{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.lenta__image-user
+{
+    border-radius: 6px;
+}
+
+.lenta__name
+{
+    width: 90px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: nowrap;
+    letter-spacing: -0.15px;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: #222222;
+}
+
+
+.lenta__image-pen
+{
+    margin-left: 318px;
+}
+
+.lenta__slider-photo
+{
+    display: flex;
+}
+
+.lenta__photo
+{
+    margin-top: 16px;
+}
+
+.lenta__counter-photo
+{
+   width: 44px;
+   height: 24px;
+   margin: 36px 0px 0px -60px;
+}
+
+.lenta__likes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2222220D;
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.lenta__heart
+{
+    height: 16px;
+    width: 16px;
+}
+
+.lenta__counter-hearts
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.lenta__information
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.lenta__description
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-top: 16px;
+}
+
+.lenta__button-open
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+}
+
+.lenta__date
+{
+    color: #808080;
+    margin-top: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+
 }
