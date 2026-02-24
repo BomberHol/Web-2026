@@ -1,13 +1,11 @@
-.tab__header
-{
+.tab__header {
     background-color: #ffffff; /*#ffffff */
     width: 1369px;
     height: 73px;
     margin-left: 72px;
 }
 
-.tab__menu
-{
+.tab__menu {
     margin-top: -73px;
     background-color: #ffffff;
     width: 71px;
@@ -17,23 +15,20 @@
     border-left: 1px solid #2222220D;
 }
 
-.tab__house-item
-{
+.tab__house-item {
     width: 40px;
     height: 40px;
-    margin: 40px 16px 0px 16px;
+    margin: 40px 16px 0 16px;
 }
 
-.tab__human-item
-{
+.tab__human-item {
     width: 40px;
     height: 40px;
-    margin: 16px 16px 0px 16px;
+    margin: 16px 16px 0 16px;
 }
 
-.tab__plus-item
-{
+.tab__plus-item {
     width: 40px;
     height: 40px;
-    margin: 16px 16px 0px 16px;
+    margin: 16px 16px 0 16px;
 }

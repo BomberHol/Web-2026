@@ -5,3 +5,7 @@
 127.0.0.1 - - [15/Feb/2026:11:53:19 +0300] "GET /cgi-bin/1_4.cgi?Cherepanov HTTP/1.1" 200 54679 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
 127.0.0.1 - - [17/Feb/2026:19:41:00 +0300] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
 127.0.0.1 - - [17/Feb/2026:20:02:09 +0300] "GET /test.php HTTP/1.1" 200 281 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+127.0.0.1 - - [24/Feb/2026:21:34:49 +0300] "GET /login/login.html HTTP/1.1" 200 1589 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Feb/2026:21:34:49 +0300] "GET /login/login.css HTTP/1.1" 404 555 "http://localhost:8001/login/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Feb/2026:21:34:49 +0300] "GET /login/images/Eye.svg HTTP/1.1" 404 555 "http://localhost:8001/login/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Feb/2026:21:34:53 +0300] "GET /login/login HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"

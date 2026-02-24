@@ -1,40 +1,34 @@
-.home
-{
+.home {
     font-family: "Golos Text", sans-serif;
     width: 1440px;
     height: 1080px;
-    clip-path: inset(0px 0px 0px 0px);
+    clip-path: inset(0 0 0 0);
 }
 
-.lenta
-{
+.lenta {
     width: 474px;
     height: 1080px;
-    margin: -1009px 0px 0px 482px;
+    margin: -1009px 0 0 482px;
 }
 
-.post
-{
+.post {
     width: 474px;
     height: 700px;
 }
 
-.post__head-post
-{
+.post__head-post {
     display: flex;
     align-items: center;
     margin-top: 16px;
 }
 
-.post__image-user
-{
+.post__image-user {
     border-radius: 6px;
     width: 32px;
     height: 32px;
 }
 
-.post__name
-{
+.post__name {
     width: 90px;
     font-weight: 500;
     font-style: Medium;
@@ -48,38 +42,32 @@
 }
 
 
-.post__image-pen
-{
+.post__image-pen {
     margin-left: 318px;
 }
 
-.post__slider-photo
-{
+.post__slider-photo {
     display: flex;
 }
 
-.post__photo
-{
+.post__photo {
     margin-top: 16px;
     width: 474px;
     height: 474px;
 }
 
-.post__counter-photo
-{
+.post__counter-photo {
    width: 44px;
    height: 24px;
-   margin: 36px 0px 0px -60px;
+   margin: 36px 0 0 -60px;
 }
 
-.post__information
-{
+.post__information {
     display: flex;
     flex-direction: column;
 }
 
-.post__likes
-{
+.post__likes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,14 +78,12 @@
     margin-top: 16px;
 }
 
-.post__heart
-{
+.post__heart {
     height: 16px;
     width: 16px;
 }
 
-.post__counter-hearts
-{
+.post__counter-hearts {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
@@ -106,8 +92,7 @@
     margin-left: 3px;
 }
 
-.post__description
-{
+.post__description {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
@@ -116,8 +101,7 @@
     margin-top: 16px;
 }
 
-.post__button-open
-{
+.post__button-open {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
@@ -125,8 +109,7 @@
     color: #808080;
 }
 
-.post__date
-{
+.post__date {
     color: #808080;
     margin-top: 8px;
 
