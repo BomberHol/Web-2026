@@ -1,74 +1,39 @@
 .home
 {
     font-family: "Golos Text", sans-serif;
-}
-
-.home__header
-{
-    background-color: black; /*#ffffff */
-    width: 1369px;
-    height: 73px;
-    margin-left: 72px;
-}
-
-.home__menu
-{
-    margin-top: -73px;
-    background-color: #ffffff;
-    width: 71px;
+    width: 1440px;
     height: 1080px;
-    border: 1px solid black; /*DELETE */
-    /* border-right: 1px solid #2222220D;
-    border-left: 1px solid #2222220D; */
-}
-
-.home__house-item
-{
-    width: 40px;
-    height: 40px;
-    margin: 40px 16px 0px 16px;
-}
-
-.home__human-item
-{
-    width: 40px;
-    height: 40px;
-    margin: 16px 16px 0px 16px;
-}
-
-.home__plus-item
-{
-    width: 40px;
-    height: 40px;
-    margin: 16px 16px 0px 16px;
+    clip-path: inset(0px 0px 0px 0px);
 }
 
 .lenta
 {
     width: 474px;
-    height: 1338px;
+    height: 1080px;
     margin: -1009px 0px 0px 482px;
 }
 
-.lenta__post-first
+.post
 {
     width: 474px;
     height: 700px;
 }
 
-.lenta_head-post
+.post__head-post
 {
     display: flex;
     align-items: center;
     margin-top: 16px;
 }
 
-.lenta__image-user
+.post__image-user
 {
     border-radius: 6px;
+    width: 32px;
+    height: 32px;
 }
 
-.lenta__name
+.post__name
 {
     width: 90px;
     font-weight: 500;
@@ -83,29 +48,37 @@
 }
 
 
-.lenta__image-pen
+.post__image-pen
 {
     margin-left: 318px;
 }
 
-.lenta__slider-photo
+.post__slider-photo
 {
     display: flex;
 }
 
-.lenta__photo
+.post__photo
 {
     margin-top: 16px;
+    width: 474px;
+    height: 474px;
 }
 
-.lenta__counter-photo
+.post__counter-photo
 {
    width: 44px;
    height: 24px;
    margin: 36px 0px 0px -60px;
 }
 
-.lenta__likes
+.post__information
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.post__likes
 {
     display: flex;
     align-items: center;
@@ -117,13 +90,13 @@
     margin-top: 16px;
 }
 
-.lenta__heart
+.post__heart
 {
     height: 16px;
     width: 16px;
 }
 
-.lenta__counter-hearts
+.post__counter-hearts
 {
     font-weight: 400;
     font-size: 15px;
@@ -133,13 +106,7 @@
     margin-left: 3px;
 }
 
-.lenta__information
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.lenta__description
+.post__description
 {
     font-weight: 400;
     font-size: 15px;
@@ -149,7 +116,7 @@
     margin-top: 16px;
 }
 
-.lenta__button-open
+.post__button-open
 {
     font-weight: 400;
     font-size: 15px;
@@ -158,7 +125,7 @@
     color: #808080;
 }
 
-.lenta__date
+.post__date
 {
     color: #808080;
     margin-top: 8px;
