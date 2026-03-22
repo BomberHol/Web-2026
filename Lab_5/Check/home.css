@@ -1,0 +1,120 @@
+.home {
+    font-family: "Golos Text", sans-serif;
+    width: 1440px;
+    height: 1080px;
+    clip-path: inset(0 0 0 0);
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.lenta {
+    width: 474px;
+    height: 1080px;
+}
+
+.post {
+    width: 474px;
+    height: 700px;
+}
+
+.post__head-post {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.post__image-user {
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+}
+
+.post__name {
+    width: 90px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: nowrap;
+    letter-spacing: -0.15px;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: #222222;
+}
+
+.post__image-pen {
+    margin-left: 318px;
+}
+
+.post__slider-photo {
+    display: flex;
+}
+
+.post__photo {
+    margin-top: 16px;
+    width: 474px;
+    height: 474px;
+}
+
+.post__counter-photo {
+    width: 44px;
+    height: 24px;
+    margin: 36px 0 0 -60px;
+}
+
+.post__information {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2222220D;
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.post__heart {
+    height: 16px;
+    width: 16px;
+}
+
+.post__counter-hearts {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.post__description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-top: 16px;
+}
+
+.post__button-open {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+}
+.post__date {
+    color: #808080;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+}
