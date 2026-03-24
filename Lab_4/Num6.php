@@ -1,146 +1,83 @@
 <?php
 
-// Обратная польская запись
-// В постфиксной записи (или обратной польской записи) операция записывается после двух операндов. Например, сумма двух чисел A и B записывается как 
-// A B +. Запись B C + D * обозначает привычное нам (B + C) * D, а запись A B C + D * + означает A + (B + C) * D.
+// function IsSumm(array $arr, int $index): bool {
+//     if ($index >= 2)
+//         return $arr[$index] === '+' && is_int($arr[$index - 1]) && is_int($arr[$index - 2]); 
+//     return FALSE;
+// }
 
-function CharToInt(string $char) {
-    switch ($char) {
-        case '0':
-            return 0;
-        case '1':
-            return 1;
-        case '2':
-            return 2;
-        case '3':
-            return 3;
-        case '4':
-            return 4;
-        case '5':
-            return 5;
-        case '6':
-            return 6;
-        case '7':
-            return 7;
-        case '8':
-            return 8;
-        case '9':
-            return 9;
-    }
-    return $char; 
+function ReduceArray(array &$arr, int &$index, int $countReduceEl) {
+    $count = 0;
+    for ($i = 0; $i < $countReduceEl; $i++)
+        unset($arr[$index - $i]);
+    $index -= $countReduceEl;
+    OrderArray($arr);
 }
 
-function LengthArray($arr) {
-    $countChars = 0;
-    foreach ($arr as $element)
-        $countChars++;
-    return $countChars;
-}
-
-function OrderingArray(&$arr) {
-    $newArr = [];
-    foreach ($arr as $element) {
-        $newArr[] = $element;
-    }
-    $arr = $newArr;
-}
-
-function GetArrayPol(string $str) {
-    $oper = [];
-    $countStr = 0;
-    $countOper = -1;
-    $strType = '';
-    while ($strType !== $str) {
-        $strType .= $str[$countStr];
-        if ($str[$countStr] !== ' ') {
-            $oper[] = CharToInt($str[$countStr]);
-            $countOper++;
+function GetArrayFromStr(string $str): array {
+    $arr = [];
+    $indexArr = 0;
+    $indexStr = 1;
+    while ($indexStr !== strlen($str) - 1) {
+        if (($str[$indexStr - 1] === ' ' && $str[$indexStr] !== ' ') || ($str[$indexStr - 1] !== ' ' && $indexStr - 1 === 0)) {
+            $arr[] = $str[$indexStr];
         }
-        $countStr++;
+        elseif ($str[$indexStr - 1] !== ' ' && $str[$indexStr] !== ' ') {
+            $arr[$indexArr] .= $str[$indexStr];
+        }
+        elseif ($str[$indexStr - 1] !== ' ' && $str[$indexStr] === ' ') {
+            $indexArr++;
+        }
+        $indexStr++;
     }
-    return $oper;
+    return $arr;
 }
 
-function ArifmeticOperation(&$oper, &$countOper) {
-    $num = 0;
-    switch ($oper[$countOper]) {
-        case '+':
-            $num = $oper[$countOper - 2] + $oper[$countOper - 1];
-            break;
-        case '-':
-            $num = $oper[$countOper - 2] - $oper[$countOper - 1];
-            break;
-        case '*':
-            $num = $oper[$countOper - 2] * $oper[$countOper - 1];
-            break;
-    }
-    unset($oper[$countOper--]);
-    unset($oper[$countOper--]);
-    $oper[$countOper] = $num;
-    OrderingArray($oper);
-    $countOper = 0;
-}
-
-function SumAllEl($oper) {
-    $sum = 0;
-    foreach ($oper as $element) {
-        $sum += $element;
-    }
-    return $sum;
-}
-
-function DiffAllEl($oper) {
-    $dif = $oper[0]; 
-    for ($index = 1; $index < LengthArray($oper); $index++) {
-        $dif -= $oper[$index];
-    }
-    return $dif;
-}
-
-function CompAllEl($oper) {
-    $com = 1;
-    foreach ($oper as $element) {
-        $com *= $element;
-    }
-    return $com;
-}
-
-function LastArifmeticOperations(&$oper, &$countOper) {
-    switch ($oper[$countOper]) {
-        case '+':
-            unset($oper[$countOper--]);
-            OrderingArray($oper);
-            $oper = [SumAllEl($oper)];
-            break;
-        case '-':
-            unset($oper[$countOper--]);
-            OrderingArray($oper);
-            $oper = [DiffAllEl($oper)];
-            break;
-        case '*':
-            unset($oper[$countOper--]);
-            OrderingArray($oper);
-            $oper = [CompAllEl($oper)];
-            break;
-    }
-    
+function LenghtArray(array $arr): int {
 
 }
 
-$str = $_POST["str"];
-$oper = GetArrayPol($str);
-if ($oper[LengthArray($oper) - 1] === '+' || $oper[LengthArray($oper) - 1] === '-' || $oper[LengthArray($oper) - 1] === '*' || LengthArray($oper) === 1) {
-    $countOper = 0;
-    while (LengthArray($oper) !== 1) { 
-        if ($oper[$countOper] === '+' || $oper[$countOper] === '-' || $oper[$countOper] === '*')
-            if (LengthArray($oper) !== $countOper + 1)
-                ArifmeticOperation($oper, $countOper);
-            else
-                LastArifmeticOperations($oper, $countOper);
-        else
-            $countOper++;
-    }
-    echo $oper[0];
+function OrderArray(array &$arr) {
+    $tempArr = [];
+    foreach ($arr as $element)
+        $tempArr[] = $element;
+    $arr = $tempArr;
 }
-else
-    echo "ERROR INPUT";
+
+
+// $operands = [1, 2, '+', 1, 1, '+', '+'];
+// $operands = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, '+', '+', '+', '+', '+', '+', '+', '+', '+', '+'];
+// $operands = [1, 2, '+', 3, 4, '+', '+', 5, 6, '+', 7, 8, '+', '+', '+', 9, 10, '+', 11, '+', '+'];
+
+$arr = GetArrayFromStr('1 2 3 +');
+foreach ($arr as $el) {
+    echo "{$el} | ";
+}
+
+
+
+
+
+
+
+// $operands = GetArrayFromStr('1 2 +');
+
+// $index = 0;
+// while (count($operands) !== 1) {  // LengthArray($operands) !== 1
+//     switch ($operands[$index]) {
+//         case '+':
+//             $operands[$index - 2] = $operands[$index - 2] + $operands[$index - 1];
+//             ReduceArray($operands, $index, 2);
+//             break;
+//         case '-':
+//             $operands[$index - 2] = $operands[$index - 2] - $operands[$index - 1];
+//             ReduceArray($operands, $index, 2);
+//             break;
+//         case '*':
+//             $operands[$index - 2] = $operands[$index - 2] + $operands[$index - 1];
+//             ReduceArray($operands, $index, 2);
+//             break;
+//     }
+//     $index++;
+// }
+// echo $operands[0];
