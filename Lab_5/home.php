@@ -1,17 +1,23 @@
 <?php
 $posts = [
     [
-        'img_author' => './images/first-post/first-avatar.svg',
+        'id' => 1,
+        'author_avatar' => './images/first-post/first-avatar.svg',
         'photo' => './images/first-post/first-photo.png',
-        'author' => 'Ваня Денисов',
+        'author_name' => 'Ваня Пенисов',
         'description' => 'Как красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в гор...»',
+        'expand_description' => 'еще',
+        'counter_hearts' => 14,
         'time' => '2 часа назад'
     ],
     [
-        'img_author' => './images/second-post/second-avatar.svg',
+        'id' => 2,
+        'author_avatar' => './images/second-post/second-avatar.svg',
         'photo' => './images/second-post/second-photo.jpg',
-        'author' => 'Артем Антонов',
-        'description' => 'Как красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в гор...»',
+        'author_name' => 'Артем Антонов',
+        'description' => 'Как красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне»',
+        'expand_description' => 'еще',
+        'counter_hearts' => 120,
         'time' => '2 часа назад'
     ]
 ];
