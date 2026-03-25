@@ -1,5 +1,5 @@
 <?php
-
+ 
 $postId = '';
 if (isset($_GET['id'])) {
     $postId = $_GET['id'];
