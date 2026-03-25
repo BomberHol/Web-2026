@@ -63,8 +63,6 @@ function SortTwoNum(int &$num1, int &$num2) {
     
 }
 
-
-
 function IsSum(int $num): int {
     return (($num%10) + (int)($num/10)%10 + (int)($num/100)%10) === ((int)($num/1000)%10 + (int)($num/10000)%10 + (int)($num/100000));
 }

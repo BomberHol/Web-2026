@@ -115,7 +115,6 @@ if ($_POST['str'] !== '') {
     $index = 0;
     while (LenghtArray($operands) !== 1) {
         $l = count($operands);
-        echo "{$index} & {$l} |";
         switch ($operands[$index]) {
             case '+':
                 $operands[$index - 2] = $operands[$index - 2] + $operands[$index - 1];
@@ -136,4 +135,3 @@ if ($_POST['str'] !== '') {
 }
 else
     echo 'EROR INPUT';
-
