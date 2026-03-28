@@ -1,7 +1,7 @@
 <div class="post">
     <span class="post__head-post">
         <img src="<?= $post['author_avatar'] ?? null ?>" alt="human" class="post__image-user">
-        <a title='Перейти' href='http://localhost:8001/web-2026/lab_5/post.php?<?php foreach ($post as $key => $value) echo "{$key}={$value}&"?>' class="post__name"><?= $post['author_name'] ?? null ?></a>
+        <a title='Перейти' href='http://localhost:8001/web-2026/lab_5/post.php?id=<?= $post['id'] ?>' class="post__name"><?= $post['author_name'] ?? null ?></a>
         <img src="./images/icon/pen.svg" alt="pen" class="post__image-pen">
     </span>
     <div class="post__slider-photo">
