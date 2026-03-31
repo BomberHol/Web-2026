@@ -1,20 +1,24 @@
+
 <div class="post">
     <span class="post__head-post">
-        <img src="<?= $post['author_avatar'] ?? null ?>" alt="human" class="post__image-user">
-        <a title='Перейти' href='http://localhost:8001/web-2026/lab_5/post.php?id=<?= $post['id'] ?>' class="post__name"><?= $post['author_name'] ?? null ?></a>
-        <img src="./images/icon/pen.svg" alt="pen" class="post__image-pen">
+        <span class="post__user-avatar">
+            <img src="<?= $post['author_avatar'] ?? null ?>" alt="human" class="post__image-user">
+            <span class="post__name"><?= $post['author_name'] ?? null ?></span>
+        </span>
+        <img src="<?= $post['icon-pen'] ?? null ?>" alt="pen" class="post__image-pen">
     </span>
-    <div class="post__slider-photo">
-        <img src="<?= $post['photo'] ?? null ?>" alt="photo" class="post__photo">
-        <img src="./images/icon/counter.svg" alt="1/3" class="post__counter-photo">
+    <div class="post__slider">
+        <a title='Перейти' href="http://localhost:8001/web-2026/lab_5/post.php?id=<?= $post['id'] ?>">
+            <img src="<?= $post['photo'] ?? null ?>" alt="photo" class="post__photo">
+        </a>
+        <span class="post__counter-photo"><?= $post['counter-photos'] ?? null ?></span>
     </div>
-                
-    <div class="post__information">
-        <div class="post__likes">  
-            <img src="./images/icon/heart.svg" alt="heart" class="post__heart">
-            <span class="post__counter-hearts"><?= $post['counter_hearts'] ?? null ?></span>
-        </div>
-        <span class="post__description"><?= $post['description'] ?? null ?></span>
+    <div class="post__likes">
+        <img src="<?= $post['image-heart'] ?? null ?>" alt="heart" class="post__heart">
+        <span class="post__counter-hearts"><?= $post['counter_hearts'] ?? null ?></span>
+    </div>
+    <div class="post__description">
+        <span class="post__text"><?= $post['description'] ?? null ?></span>
         <span class="post__button-open"><?= $post['expand_description'] ?? null ?></span>
         <span class="post__date"><?= $post['time'] ?? null ?></span>
     </div>

@@ -11,13 +11,7 @@
     </head>
 
     <body class="home">
-        <div class="tab">
-            <div class="tab__menu">
-                <img src="./images/icon/house-item.svg" alt="house-item" class="tab__house-item">
-                <img src="./images/icon/human-item.svg" alt="human-item" class="tab__human-item">
-                <img src="./images/icon/plus-item.svg" alt="plus-item" class="tab__plus-item">
-            </div>
-        </div>
+        <?php include 'tab.php'; ?>
         <div class="lenta">
             <?php
                 include 'Databases.php'; 
