@@ -1,11 +1,16 @@
 .login {
     font-family: "Golos Text", sans-serif;
-    /* display: flex;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     gap: 106px;
+    min-height: 100vh;
+}
 
-    
+.login__preview {
+   display: inline-block;
+   position: relative;
 }
 
 .login__heading {
@@ -15,39 +20,25 @@
     letter-spacing: -1.5px;
 
     position: absolute;
-    left: 0px;
-
-}
-
-.login__preview {
-   display: inline-block;
-   position: relative;
+    right: 167px;
+    bottom: 427px;
 }
 
 .login__photo {
-    display: block;
+    width: 462px;
+    height: 501px;
 }
 
 .login__form {
     display: grid;
-
     grid-template-rows: 88px 67px 48px;
-    grid-template-columns: 350px;
+    grid-template-columns: 343px;
     grid-gap: 16px;
-
-    /* grid-template-rows: 18px 44px 16px 18px 44px 48px;
-    grid-template-columns: 343px; */
-    /* grid-gap: 5px; */
-    /* align-items: center;
-    justify-content: center; */
 }
-
 
 .panel {
     display: inline-block;
 }
-
-
 
 .panel__headline-input {
     font-weight: 400;
@@ -70,13 +61,11 @@
     background-color: #e0e0e0;
     border-radius: 10px;
     border: none;
+    box-sizing: border-box;
 }
-
-
 
 .panel__password-form {
     position: relative;
-    z-index: 0;
 }
 
 .panel__icon-password {
@@ -85,11 +74,9 @@
     position: absolute;
     right: 12px;
     top: 10px;
-    z-index: 2;
 }
 
 .login__button {
-    z-index: 0;
     width: 343px;
     height: 48px;
     border-radius: 10px;
@@ -99,7 +86,4 @@
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
-
-    /* grid-row-start: 4;
-    grid-row-end: 5; */
 }

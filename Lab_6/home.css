@@ -79,8 +79,6 @@
     border-radius: 20px;
 }
 
-
-
 .post__description {
     display: flex;
     flex-direction: column;
@@ -96,14 +94,11 @@
     width: 68px;
     height: 30px;
     border-radius: 8px;
-      
-    
 }
 
 .post__heart {
     width: 16px;
     height: 16px;
-    
 }
 
 .post__counter-hearts {
@@ -125,7 +120,6 @@
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.15px;
-
 }
 
 .post__button-open {
