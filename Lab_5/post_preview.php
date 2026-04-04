@@ -3,7 +3,7 @@
     <span class="post__head-post">
         <span class="post__user-avatar">
             <img src="<?= $post['author_avatar'] ?? null ?>" alt="human" class="post__image-user">
-            <span class="post__name"><?= $post['author_name'] ?? null ?></span>
+            <a title='Перейти' href='http://localhost/Web-2026/Lab_5/profile.php' class="post__name"><?= $post['author_name'] ?? null ?></a>
         </span>
         <img src="<?= $post['icon-pen'] ?? null ?>" alt="pen" class="post__image-pen">
     </span>
