@@ -8,11 +8,14 @@
         <img src="<?= $post['icon-pen'] ?? null ?>" alt="pen" class="post__image-pen">
     </span>
     <div class="post__slider">
-        <a title='Перейти' href="http://localhost:8001/web-2026/lab_5/post.php?id=<?= $post['id'] ?>">
+        <a title='Перейти' href="http://localhost/web-2026/lab_5/post.php?id=<?= $post['id'] ?>">
             <img src="<?= $post['photo'] ?? null ?>" alt="photo" class="post__photo">
         </a>
-        <span class="post__counter-photo"><?= $post['counter-photos'] ?? null ?></span>
+        <?php if ($post['counter-photos'] ?? null): ?>
+            <span class="post__counter-photo"><?= $post['counter-photos'] ?></span>
+        <?php endif; ?>
     </div>
+
     <div class="post__likes">
         <img src="<?= $post['image-heart'] ?? null ?>" alt="heart" class="post__heart">
         <span class="post__counter-hearts"><?= $post['counter_hearts'] ?? null ?></span>
