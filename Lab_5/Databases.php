@@ -8,7 +8,6 @@ CONST YEAR = MONTH * 12;
 
 function time_ago(string $date) {
     $diff = time() - strtotime($date);
-    // return time() . ' | ' . strtotime($date) . ' | ' . $diff;
     if ($diff < MIN)
         return $diff . ' секунд назад';
     elseif ($diff < HOUR)
@@ -19,7 +18,7 @@ function time_ago(string $date) {
         return floor($diff / DAY) . ' дн назад';
     elseif ($diff < YEAR)
         return floor($diff / MONTH) . ' мес назад';    
-    return (string)(int)($diff / YEAR) . ' лет назад';
+    return floor($diff / YEAR) . ' лет назад';
 }
 
 $posts = [
