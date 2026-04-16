@@ -7,9 +7,11 @@ if ($method === 'POST') {
     $data = json_decode($data, true);
 
     foreach ($data as $key => $value) {
+        $image = file_get_contents($value);
         echo "{$key} = {$value} </br>";
+        echo $image;
     }
-
-    file_put_contents("./static/data.json", json_encode($data, JSON_UNESCAPED_UNICODE));
+    
+    file_put_contents("./static/data.svg", $image);
 }
 
