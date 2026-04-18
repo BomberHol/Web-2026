@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>profile</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="profile.css">
+        <link rel="stylesheet" href="tab.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="profile">
+        <?php include 'tab.php'; ?>
+        <div class="profile__user">
+            <img src="./images/profiles/ava.svg" alt="ava" class="profile__avatar">
+            <span class="profile__name">Ваня Денисов</span>
+            <span class="profile__descreption">
+                Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!
+            </span>
+            <div class="profile__counter-posts">
+                <img src="./images/profiles/picture.svg" alt="picture" class="profile__image-pictures">
+                <span class="profile__counter-pictures">43 поста</span>
+            </div>
+            <div class="profile__photo-card">
+                <img src="./images/profiles/first-photo.svg" alt="first-photo">
+                <img src="./images/profiles/second-photo.svg" alt="second-photo">
+                <img src="./images/profiles/third-photo.svg" alt="third-photo">
+                <img src="./images/profiles/four-photo.svg" alt="four-photo">
+                <img src="./images/profiles/five-photo.svg" alt="five-photo">
+                <img src="./images/profiles/six-photo.svg" alt="six-photo">
+                <img src="./images/profiles/seven-photo.svg" alt="seven-photo">
+                <img src="./images/profiles/eight-photo.svg" alt="eight-photo">
+                <img src="./images/profiles/nine-photo.svg" alt="nine-photo">
+            </div>
+        </div>
+    </body>
+</html>
