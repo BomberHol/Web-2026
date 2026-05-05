@@ -35,13 +35,12 @@ if ($method === 'POST') {
     $dataArr = json_decode($data, true);
     
 
-    $query = "INSERT INTO post (id, user_name, user_avatar, post_photo, post_description, counter_heart, post_time) VALUE (?, ?, ?, ?, ?, ?, ?)";
+    $query = "INSERT INTO post (id, user_avatar, post_photo, post_description, counter_heart, post_time) VALUE (?, ?, ?, ?, ?, ?)";
     
     $databases = connect_databases();
     $stmt = $databases -> prepare($query);
     $stmt -> execute([
         $dataArr['id'], 
-        $dataArr['user_name'],
         PATH_BEGIN . IMAGE_ONE . PATH_END,
         PATH_BEGIN . IMAGE_TWO . PATH_END, 
         $dataArr['post_description'],

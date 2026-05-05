@@ -1,6 +1,5 @@
 INSERT INTO post (
     id, 
-    user_name, 
     user_avatar, 
     post_photo, 
     post_description, 
@@ -9,8 +8,7 @@ INSERT INTO post (
 )
 VALUES
 (
-    1, 
-    'Ваня Денисов',
+    9, 
     './images/first-post/first-avatar.svg',
     './images/first-post/first-photo.png',
     'Как красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский...',
@@ -18,8 +16,7 @@ VALUES
     '2026-04-04'
 ),
 (
-    2, 
-    'Ваня Денисов',
+    8, 
     './images/first-post/first-avatar.svg',
     './images/profiles/second-photo.svg',
     'Когда-нибудь я куплю эту крышу)',
@@ -27,8 +24,7 @@ VALUES
     '2026-03-18'
 ),
 (
-    3, 
-    'Ваня Денисов',
+    7, 
     './images/first-post/first-avatar.svg',
     './images/profiles/third-photo.svg',
     'Обалденное пироженное!!',
@@ -36,8 +32,7 @@ VALUES
     '2026-03-07'
 ),
 (
-    4, 
-    'Ваня Денисов',
+    6, 
     './images/first-post/first-avatar.svg',
     './images/profiles/four-photo.svg',
     'Недавно закрыли сессию! Ура!! Наконец-то!! Было тяжело, но мы справились. Ладно теперь можно и в приставочку...»',
@@ -46,7 +41,6 @@ VALUES
 ),
 (
     5, 
-    'Ваня Денисов',
     './images/first-post/first-avatar.svg',
     './images/profiles/five-photo.svg',
     'Смотрите что прикупил.',
@@ -54,8 +48,7 @@ VALUES
     '2026-01-01'
 ),
 (
-    6, 
-    'Ваня Денисов',
+    4, 
     './images/first-post/first-avatar.svg',
     './images/profiles/six-photo.svg',
     'Очень интересная книга. Начал читать и аж дух захватывает. Интересные герои, загодочные события и самое главное...»',
@@ -63,8 +56,7 @@ VALUES
     '2025-10-28'
 ),
 (
-    7, 
-    'Ваня Денисов',
+    3, 
     './images/first-post/first-avatar.svg',
     './images/profiles/seven-photo.svg',
     'Покатались по лесу. Увидели медведя. Поиграли с ним в прятки. Слава богу мы победили.',
@@ -72,8 +64,7 @@ VALUES
     '2024-06-06'
 ),
 (
-    8, 
-    'Ваня Денисов',
+    2, 
     './images/first-post/first-avatar.svg',
     './images/profiles/eight-photo.svg',
     'Какой прекрасный вид)',
@@ -81,8 +72,7 @@ VALUES
     '2020-06-23'
 ),
 (
-    9, 
-    'Ваня Денисов',
+    1, 
     './images/first-post/first-avatar.svg',
     './images/profiles/nine-photo.svg',
     'Туда нам надо.',

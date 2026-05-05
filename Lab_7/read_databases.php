@@ -13,11 +13,12 @@ function connect_databases(): PDO {
     return new PDO($dsn, $user, $password, $option);
 }
 
-function get_post(PDO $databases): array {
-    $query = "SELECT * FROM post";
+function get_table(PDO $databases, string $nameTable): array {
+    $query = "SELECT * FROM " . $nameTable . " ORDER BY id DESC";
     $stmt = $databases -> query($query);
     return $stmt -> fetchAll();
 }
 
 $databases = connect_databases();
-$posts = get_post($databases);
+$posts = get_table($databases, 'post');
+$user = get_table($databases, 'user');

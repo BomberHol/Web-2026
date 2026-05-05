@@ -1,6 +1,5 @@
 CREATE TABLE post (
    id INT UNSIGNED AUTO_INCREMENT,
-   user_name VARCHAR(200),
    user_avatar VARCHAR(200),
    post_photo VARCHAR(200),
    post_description MEDIUMTEXT,
