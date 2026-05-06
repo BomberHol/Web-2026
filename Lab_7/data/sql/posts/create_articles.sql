@@ -1,6 +1,5 @@
 INSERT INTO post (
     id, 
-    user_avatar, 
     post_photo, 
     post_description, 
     counter_heart, 
@@ -9,7 +8,6 @@ INSERT INTO post (
 VALUES
 (
     9, 
-    './images/first-post/first-avatar.svg',
     './images/first-post/first-photo.png',
     'Как красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский...',
     22,
@@ -17,7 +15,6 @@ VALUES
 ),
 (
     8, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/second-photo.svg',
     'Когда-нибудь я куплю эту крышу)',
     44,
@@ -25,7 +22,6 @@ VALUES
 ),
 (
     7, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/third-photo.svg',
     'Обалденное пироженное!!',
     88,
@@ -33,7 +29,6 @@ VALUES
 ),
 (
     6, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/four-photo.svg',
     'Недавно закрыли сессию! Ура!! Наконец-то!! Было тяжело, но мы справились. Ладно теперь можно и в приставочку...»',
     16,
@@ -41,7 +36,6 @@ VALUES
 ),
 (
     5, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/five-photo.svg',
     'Смотрите что прикупил.',
     32,
@@ -49,7 +43,6 @@ VALUES
 ),
 (
     4, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/six-photo.svg',
     'Очень интересная книга. Начал читать и аж дух захватывает. Интересные герои, загодочные события и самое главное...»',
      64,
@@ -57,7 +50,6 @@ VALUES
 ),
 (
     3, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/seven-photo.svg',
     'Покатались по лесу. Увидели медведя. Поиграли с ним в прятки. Слава богу мы победили.',
      128,
@@ -65,7 +57,6 @@ VALUES
 ),
 (
     2, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/eight-photo.svg',
     'Какой прекрасный вид)',
      256,
@@ -73,7 +64,6 @@ VALUES
 ),
 (
     1, 
-    './images/first-post/first-avatar.svg',
     './images/profiles/nine-photo.svg',
     'Туда нам надо.',
      512,
@@ -82,9 +72,11 @@ VALUES
 
 INSERT INTO user (
     id,
-    user_name
+    user_name,
+    user_avatar
 )
 VALUES (
     1,
-    'Ваня Денисов'
+    'Ваня Денисов',
+    './images/first-post/first-avatar.svg'
 );

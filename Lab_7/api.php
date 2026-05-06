@@ -19,33 +19,33 @@ function get_image(string $name): string {
     }
 }
 
-
+function read_post(string $name) {
+    if (isset($_POST[$name])) {
+        return $_POST[$name];
+    }
+    return '';
+}
 
 $method = $_SERVER['REQUEST_METHOD'];
 
 if ($method === 'POST') {
 
-    $userAva = get_image(IMAGE_ONE);
-    file_put_contents(PATH_BEGIN . IMAGE_ONE . PATH_END, $userAva);
+    //$postPhoto = get_image(IMAGE_TWO);
 
-    $postPhoto = get_image(IMAGE_TWO);
-    file_put_contents(PATH_BEGIN . IMAGE_TWO . PATH_END, $postPhoto);
 
-    $data = $_POST['data'];
-    $dataArr = json_decode($data, true);
-    
+    $photo = base64_decode(read_post('post_photo'));
+    file_put_contents(PATH_BEGIN . IMAGE_TWO . PATH_END, $photo);
 
-    $query = "INSERT INTO post (id, user_avatar, post_photo, post_description, counter_heart, post_time) VALUE (?, ?, ?, ?, ?, ?)";
+    $query = "INSERT INTO post (id, post_photo, post_description, counter_heart, post_time) VALUE (?, ?, ?, ?, ?)";
     
     $databases = connect_databases();
     $stmt = $databases -> prepare($query);
     $stmt -> execute([
-        $dataArr['id'], 
-        PATH_BEGIN . IMAGE_ONE . PATH_END,
+        read_post('id'), 
         PATH_BEGIN . IMAGE_TWO . PATH_END, 
-        $dataArr['post_description'],
-        $dataArr['counter_heart'],
-        $dataArr['post_time']
+        read_post('post_description'),
+        read_post('counter_heart'),
+        read_post('post_time')
     ]);
 
     
