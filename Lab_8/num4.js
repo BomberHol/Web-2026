@@ -17,5 +17,5 @@
         return {};
     };
 
-    writeObject(mergeObjects({'1': 'hello', '2': 'hello', '4': 'yes'}, {'2': 'hi', '3': 'guten tac'}));
+    writeObject(mergeObjects({1: 'hello', 2: 'hello', 4: 'yes'}, {2: 'hi', 3: 'guten tac'}));
 }

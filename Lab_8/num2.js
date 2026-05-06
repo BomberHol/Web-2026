@@ -12,7 +12,7 @@
 
     function countVowels(str) {
         if (typeof str == 'string') {
-            let wovelStr = 'аеёиоуыэюя';
+            let wovelStr = 'аеёиоуыэюяАЕЁМОУЫЭЮЯ';
             const wovelFound = [];
             let count = 0;
             for (let char of str) {
@@ -27,5 +27,5 @@
         };
     };
 
-    countVowels('йцукенгшщзхъэждлорпавыфячсмитьбю.');
+    countVowels('инструкция.');
 }

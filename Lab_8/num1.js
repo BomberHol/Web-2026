@@ -59,10 +59,13 @@
             };
         } 
         if (notPrimeArr.length > 0) {
-            if (primeArr.length > 0)
+            if (primeArr.length > 0) {
                 answer += ',' + strNum(notPrimeArr);
-            else
+            }
+            else {
                 answer += strNum(notPrimeArr)
+            }
+            
             if (notPrimeArr.length == 1) {
                 answer += ' не простое число';
             }
