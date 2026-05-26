@@ -1,9 +1,12 @@
 .home {
     margin: 0;
     font-family: "Golos Text", sans-serif;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    width: 100vw;
 }
 
 .lenta {
@@ -13,14 +16,14 @@
 }
 
 .post {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
 .post__head-post {
-    width: 474px;
-    display: inline-flex;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -34,7 +37,6 @@
 .post__image-user {
     width: 32px;
     height: 32px;
-    
 }
 
 .post__name {
@@ -73,9 +75,34 @@
     height: 474px;
 }
 
+.post__button-left {
+    position: absolute;
+    top: 237px;
+    left: 16px;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    transform: scaleX(-1);
+
+}
+
+.post__button-right {
+    position: absolute;
+    top: 237px;
+    left: 438px;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+
+}
+
 .post__counter-photo {
 
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -150,3 +177,4 @@
     vertical-align: middle;
     color: #222222;
 }
+

@@ -5,10 +5,14 @@
             <img src="<?= $user[$post['user_id']]['user_avatar'] ?? null ?>" alt="human" class="post__image-user">
             <a title='Перейти' href='http://localhost/Web-2026/Lab_7/profile.php' class="post__name"><?= $user[$post['user_id']]['user_name'] ?? null ?></a>
         </span>
-        <img src="./images/icon/pen.svg" alt="pen" class="post__image-pen">
+        <a href="http://localhost/web-2026/lab_7/post.php?id=<?= $post['post_id'] ?>" class="post__image-pen">
+            <img src="./images/icon/pen.svg" alt="pen">
+        </a>
     </span>
+
     <div class="post__slider">
-        <a title='Перейти' href="http://localhost/web-2026/lab_7/post.php?id=<?= $post['post_id'] ?>" class="post__window">
+        
+        <a title='Перейти' data-src=<?php echo json_encode($post['photos']) ?> class="post__window">
             <?php foreach ($post['photos'] as $index => $photo): ?>
                 <?php if ($index === 0): ?>
                     <img src="<?= $photo ?? null ?>" alt="photo" class="post__photo-visible">
@@ -17,9 +21,18 @@
                 <?php endif; ?>
             <?php endforeach; ?>        
         </a>
-        <button class="post__button-left">назад</button>
-        <button class="post__button-right">вперед</button>
-        <span class="post__counter-photo">1/3</span>
+
+        <button class="post__button-left">
+            <img src="http://localhost/Web-2026/Lab_7/images/icon/image-button.svg" alt="button-left">
+        </button>
+        <button class="post__button-right">
+            <img src="http://localhost/Web-2026/Lab_7/images/icon/image-button.svg" alt="button-left">
+        </button>
+        <div class="post__counter-photo">
+            <span class="post__counter-current">1</span>
+            <span class="post__counter-max">/<?php echo count($post['photos']) ?></span>
+        </div>
+        
     </div>
 
     <div class="post__likes">
