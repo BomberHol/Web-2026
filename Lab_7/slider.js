@@ -1,4 +1,5 @@
 {
+    // class list toggle
     function classOn(slide) {
         slide.classList.remove('post__photo-unvisible');
         slide.classList.add('post__photo-visible');
@@ -9,7 +10,7 @@
         slide.classList.add('post__photo-unvisible');
     }
 
-    let posts = document.querySelectorAll('.post');
+    let posts = document.querySelectorAll('.post');  // сделать так чтобы при обрработке клика я оращался к родителю и получался картинки
 
     posts.forEach(post => {
         const slider = post.querySelectorAll('.post__window img');
@@ -19,12 +20,12 @@
         let counter = post.querySelector('.post__counter-photo');
 
         if (slider.length > 1) {
-            counter.style.display = 'flex';
+            counter.style.display = 'flex';  // тоже через classList
             button_left.style.display = 'block';
             button_right.style.display = 'block';
         }
         else {
-            counter.style.display = 'none';
+            counter.style.display = 'none';  // тоже через classList
             button_left.style.display = 'none';
             button_right.style.display = 'none';
         }

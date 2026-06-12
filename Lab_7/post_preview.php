@@ -11,7 +11,7 @@
     </span>
 
     <div class="post__slider">
-        
+        <!-- сделать через querySelectAll к картинкам добавить атрибут по которому буду их считывать -->
         <a title='Перейти' data-src=<?php echo json_encode($post['photos']) ?> class="post__window">
             <?php foreach ($post['photos'] as $index => $photo): ?>
                 <?php if ($index === 0): ?>

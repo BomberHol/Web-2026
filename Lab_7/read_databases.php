@@ -19,7 +19,7 @@ function get_table(PDO $databases, string $nameTable): array {
         $query = "SELECT * FROM " . $nameTable . " ORDER BY user_id ASC";
     }
     else if ($nameTable === 'posts') {
-        $query = "SELECT * FROM " . $nameTable . " ORDER BY post_id ASC";
+        $query = "SELECT * FROM " . $nameTable . " ORDER BY post_id DESC";
     }
     else {
         $query = "SELECT * FROM ". $nameTable;
@@ -50,7 +50,7 @@ function get_posts(PDO $databases): array {
 }
 
 $databases = connect_databases();
-
+// left join mysql
 $posts = get_posts($databases);
 $user = get_table($databases, 'users');
 

@@ -27,26 +27,54 @@ function read_post(string $name) {
 }
 
 $method = $_SERVER['REQUEST_METHOD'];
+ 
 
 if ($method === 'POST') {
 
     //$postPhoto = get_image(IMAGE_TWO);
-
-
-    $photo = base64_decode(read_post('post_photo'));
-    file_put_contents(PATH_BEGIN . IMAGE_TWO . PATH_END, $photo);
-
-    $query = "INSERT INTO post (id, post_photo, post_description, counter_heart, post_time) VALUE (?, ?, ?, ?, ?)";
+    $post_id = (int)read_post('post_id');
     
-    $databases = connect_databases();
-    $stmt = $databases -> prepare($query);
-    $stmt -> execute([
-        read_post('id'), 
-        PATH_BEGIN . IMAGE_TWO . PATH_END, 
-        read_post('post_description'),
-        read_post('counter_heart'),
-        read_post('post_time')
-    ]);
+    $flag = true;
+    foreach ($posts as $post) {
+        if ($post_id == $post['post_id']) {
+            $flag = false;
+        }
+
+    }
+
+    if ($flag) {
+        $photo = base64_decode(read_post('post_photo'));
+        file_put_contents(PATH_BEGIN . IMAGE_TWO . PATH_END, $photo);
+
+        $query = "INSERT INTO posts (post_id, post_description, counter_heart, post_time, user_id) VALUES (?, ?, ?, ?, ?)";
+        $query_photo = "INSERT INTO photos (post_id, photo) VALUES (?, ?)";
+
+        $databases = connect_databases();
+        $stmt = $databases -> prepare($query);
+        $stmt -> execute([
+            $post_id,
+            read_post('post_description'),
+            read_post('counter_heart'),
+            read_post('post_time'),
+            read_post('user_id')
+        ]);
+
+        $stmt = $databases -> prepare($query_photo);
+        $stmt -> execute([
+            $post_id, 
+            PATH_BEGIN . IMAGE_TWO . PATH_END
+        ]);
+    }
+    else {
+        http_response_code(404);
+    }
+    
+    
+    
+
+    
+
+    
 
     
 }
